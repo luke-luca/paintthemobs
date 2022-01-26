@@ -10,6 +10,8 @@ public class Health : MonoBehaviour
     [SerializeField] public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+    public GameOverScreen _gameOverScreen;
+    public AudioSource audio1;
     void Start()
     {
         UpdateHealth();
@@ -42,6 +44,11 @@ public class Health : MonoBehaviour
             {
                 hearts[i].enabled = false;
             }
+        }
+        if (health == 0)
+        {
+            audio1.Play();
+            _gameOverScreen.ShowScreen();
         }
     }
 }

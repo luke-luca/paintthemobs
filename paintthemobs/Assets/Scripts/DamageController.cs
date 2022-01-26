@@ -5,10 +5,21 @@ using UnityEngine;
 public class DamageController : MonoBehaviour
 {
 
-    public Health _health;
+    private Health _health;
+    public AudioSource audio1;
     public int setDamage;
     float timer = 0;
     public float damageTime = 2;
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            timer -= damageTime;
+            audio1.Play();
+            Damage();
+        }
+
+    }
     void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -16,7 +27,7 @@ public class DamageController : MonoBehaviour
             if (timer >= damageTime)
             {
                 timer -= damageTime;
-
+                audio1.Play();
                 Damage();
             }
             timer += Time.deltaTime;
@@ -24,6 +35,7 @@ public class DamageController : MonoBehaviour
     }
     private void Damage()
     {
+        _health = GameObject.FindWithTag("Player").GetComponent<Health>();
         _health.health = _health.health - setDamage;
         _health.UpdateHealth();
     }
@@ -31,7 +43,6 @@ public class DamageController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            // Reset the damage timer
             timer = 0;
         }
     }

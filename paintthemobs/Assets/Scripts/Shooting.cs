@@ -11,7 +11,7 @@ public class Shooting : MonoBehaviour
     private float lastFire;
     public float fireDelay;
     public Transform firePoint;
-    public int bulletDamage = 1;
+    public int bulletDamage;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -29,6 +29,8 @@ public class Shooting : MonoBehaviour
         }
     }
 
+
+
     void Shoot(float x, float y)
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity) as GameObject;
@@ -38,4 +40,6 @@ public class Shooting : MonoBehaviour
             0
         );
     }
+
+
 }

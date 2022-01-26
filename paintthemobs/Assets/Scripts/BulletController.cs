@@ -16,4 +16,17 @@ public class BulletController : MonoBehaviour
         yield return new WaitForSeconds(lifeTime);
         Destroy(gameObject);
     }
+    void OnCollisionExit2D(Collision2D other)
+    {
+        Destroy(gameObject);
+    }
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Destroy(gameObject);
+    }
 }
