@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public float speed;
     Rigidbody2D rb;
     public GameObject bulletPrefab;
     public float bulletSpeed;

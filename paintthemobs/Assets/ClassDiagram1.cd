@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BulletController">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAQAAQAAAAAAAAAUAIAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BulletController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DamageController">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAACAAAFAAAAAAAAAIAABAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DamageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CongScreen">
+    <Position X="18.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CongScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DmgUp">
+    <Position X="18.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DmgUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyFollowing">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAECAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EnemyFollowing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyHealth">
+    <Position X="20.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAgAAAAAACAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EnemyHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverScreen">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAgAAAAAAAAAAEAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameOverScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Health">
+    <Position X="20.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgCAAAACAAAAAAAAAgAAABAAABAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Health.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthReg">
+    <Position X="18.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HealthReg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovUp">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MovUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement">
+    <Position X="12.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAEoAAAAAEAAAAAACAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIInfo">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAACAAAAAAAAAAAAQCAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UIInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shooting">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAACACAABABEAAAAAAAACAAAAAQAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Shooting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wave">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAABEA=</HashCode>
+      <FileName>Assets\Scripts\WaveSpawnner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaveSpawnner">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAQBEIAAAAQAAAAAAAAAAAgAAAADAAAAIEBAAAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\WaveSpawnner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
